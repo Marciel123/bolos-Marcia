@@ -27,12 +27,12 @@ predicoes = model.predict(features_teste)
 
 
 st.title('Aplicativo para compra de bolos da Marcia')
-st.image('bolo Marcia.PNG')
+st.image('bolo cenoura.PNG')
 SepalLengthCm = st.number_input('qual bolo voce quer')
 SepalWidthCm = st.number_input('Digite o tipo de cobertura')
 
 if st.button('Clique aqui'):
-  resultado = model.predict([[SepalLengthCm,SepalWidthCm,PetalLengthCm,PetalWidthCm]])
+ 
 
  
 
