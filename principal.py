@@ -1,9 +1,3 @@
-import streamlit as st
-from sklearn.naive_bayes import GaussianNB
-import pandas as pd
-
-dados = pd.read_csv('bolos')
-
 
 
 st.title('Aplicativo para compra de bolos da Marcia')
